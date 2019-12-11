@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Minnow</ion-title>
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        
+        <ion-item>
+            <ion-label position="stacked">PIC Number</ion-label>
+            <ion-input type ="textbox" [(ngModel)]="picNumber"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Cassette</ion-label>
+            <ion-input type ="textbox" [(ngModel)]="cassetteNumber"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Location</ion-label>
+            <ion-input type ="textbox" [(ngModel)]="locationNumber"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="stacked">Position</ion-label>
+            <ion-input type ="textbox" [(ngModel)]="positionNumber"></ion-input>
+        </ion-item>
+        <ion-button expand="block" color="danger" (click)="sendAdress()">Send Location</ion-button>
+        <ion-button expand="block" color="success" (click)="turnOn()">Turn On led</ion-button>
+        <ion-button expand="block" color="dark" (click)="turnOff()">Turn Off led</ion-button>
+    </ion-list>
+</ion-content>
+
+<ion-footer>
+    <img src="../../assets/logo.png"/>
+</ion-footer>

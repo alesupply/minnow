@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>About</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+          <ion-card-title>Minnow POC</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content >
+          A Proof Of Concept (POC) idea that we have discussed internally is the ability to open a Locker unit by approaching it and pressing a button on a mobile device to open a given location.
+          This would open up thought processes and potential development opportunities into other areas that would allow us to serve a different purpose to regular inventory control applications.
+          For the POC we would want to be able to walk up to the machine with a mobile, connect with it over low-power WIFI to the Minnow-board, and enter a hardware address in the form of PIC, Drawer and Compartment and press a button on the mobile device to open the matching physical address on the Locker. 
+          The Minnow-board would need to take that data and formulate a packet to send the command over the standard RS-232 serial bus that we use to open the corresponding location.
+        </ion-card-content>
+      </ion-card>
+</ion-content>
+
+<ion-footer>
+    <img src="../../assets/logo.png"/>
+</ion-footer>
