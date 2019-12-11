@@ -1,0 +1,8 @@
+{
+  "name": "MinnowPOC",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "53da7e1a"
+}
